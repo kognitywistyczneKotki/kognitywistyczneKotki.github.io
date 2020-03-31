@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+a {
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #000a12;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img_neko {
+    background-image: url("https://image.winudf.com/v2/image/Y29tLkhEV2FsbHBhcGVyLmN1dGVjYXRjX3NjcmVlbl80XzE1MjQzNzk3MDJfMDQw/screen-4.jpg?fakeurl=1&type=.jpg");
+    width: 10%;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.subjects {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.subject {
+    background-color: rgb(121, 9, 121);
+    text-align: center;
+    box-shadow: 2px 5px 10px magenta;
+    border-color: yellowgreen;
+    padding: 5px;
+    flex-basis: 25%;
+    margin: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
